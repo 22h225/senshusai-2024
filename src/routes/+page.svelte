@@ -22,6 +22,9 @@
 				<p class="p-0.5">
 					<a href="map/" rel="noreferrer"> 校内マップ </a>
 				</p>
+				<p class="p-0.5">
+					<a href="course/" rel="noreferrer"> 経路検索 </a>
+				</p>
 			</div>
 		</div>
 	</div>
