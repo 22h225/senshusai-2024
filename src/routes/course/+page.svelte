@@ -132,7 +132,7 @@ let coordinates = [
     ],
     //25 地理部(渡り廊下)
     [
-        [1.9,3.18]
+        [1.9,1.94]
     ],
     //26 弓道部
     [
@@ -362,7 +362,7 @@ let coordinates = [
     ],
     //82 管理1F
     [
-        [0.91,1.09]
+        [1.9,1.1]
     ],
     //83 管理2F
     [
@@ -466,11 +466,11 @@ let coordinates = [
     ],
     //108 大会議室
     [
-        [1.63,1.61]
+        [1.63,2.6]
     ],
     //109 教務室
     [
-        [2.03,1.61]
+        [2.03,2.6]
     ],
     //110 コンピュータ研究部
     [
@@ -977,6 +977,9 @@ select:focus {
 #select{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
 }
 
 #sub_parent{
@@ -1002,8 +1005,10 @@ select:focus {
 }
 #main{
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
 }
 
 #time{
